@@ -3,11 +3,12 @@ import {addProject, getAllProjects, getProjectById, updateProjectById} from '../
 import { protect } from "../middleware/authMiddleware";
 
 const router = Router();
-router.use(router)
+router.use(protect)
 
 router.post('/projects', addProject);
 router.get('/projects', getAllProjects);
 router.get('/projects/:id', getProjectById);
 router.get('/projects:id',updateProjectById);
+
 
 export default router;

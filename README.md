@@ -82,7 +82,7 @@ Before installing, make sure you have the following:
 
 ```bash
 # 1. Clone the repository
-git clone <your-repo-url>
+git clone https://github.com/Ndima-karabo17/CollaborativeCodeReviewPlatform.git
 cd CollaborativeCodeReviewPlatform
 
 # 2. Install dependencies

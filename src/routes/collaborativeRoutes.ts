@@ -8,7 +8,7 @@ router.use(protect)
 router.post('/projects', addProject);
 router.get('/projects', getAllProjects);
 router.get('/projects/:id', getProjectById);
-router.get('/projects:id',updateProjectById);
+router.get('/projects/:id',updateProjectById);
 
 
 export default router;

@@ -4,6 +4,15 @@ CREATE TABLE Profile(
     email VARCHAR(100) NOT NULL,
     picturedispl(100) NOT NULL
 );
+DROP TABLE IF EXISTS Profile CASCADE;
+
+CREATE TABLE Profile (
+    id SERIAL PRIMARY KEY,
+       name VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL,
+    pictureDispl VARCHAR(100) NOT NULL
+);
+
 CREATE TYPE TrackSubmissionStatus AS ENUM(
     'Pending',
     'In_review',

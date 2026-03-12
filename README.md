@@ -82,7 +82,7 @@ Before installing, make sure you have the following:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/Ndima-karabo17/CollaborativeCodeReviewPlatform.git
+git clone my project repo
 cd CollaborativeCodeReviewPlatform
 
 # 2. Install dependencies
@@ -193,10 +193,11 @@ Once the server is running, test the API using Thunder Client, Postman, or curl.
 ### Project Routes
 | Method | Endpoint | Description | Auth Required |
 |--------|----------|-------------|---------------|
-| POST | `/api/projects` | Add a new project | |
-| GET | `/api/projects` | Get all projects | |
-| GET | `/api/projects/:id` | Get a project by ID | |
-| PUT | `/api/projects/:id` | Update a project by ID | |
+| POST | `/api/projects` | Add a new project | Yes |
+| GET | `/api/projects` | Get all projects | Yes |
+| GET | `/api/projects/:id` | Get a project by ID | Yes |
+| PUT | `/api/projects/:id` | Update a project by ID | Yes |
+| DELETE | `/api/projects/:id` | Delete a project by ID | Yes |
 
 ---
 
